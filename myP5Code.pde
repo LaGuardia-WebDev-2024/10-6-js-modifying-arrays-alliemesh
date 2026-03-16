@@ -9,6 +9,10 @@ draw = function(){
   background(0, 0, 0);
   drawStars();
 
+if(mousePressed){
+  xPositions.push(mouseX);
+  yPositions.push(mouseY);
+}
   //***in the video they use if(mouseIsPressed)
   //***in Codespaces we use if(mousePressed)
   
